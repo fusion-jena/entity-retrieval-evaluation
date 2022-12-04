@@ -1,0 +1,75 @@
+import gate.creole.ANNIEConstants
+import gate.mimir.SemanticAnnotationHelper.Mode
+import gate.mimir.index.OriginalMarkupMetadataHelper
+import gate.mimir.db.DBSemanticAnnotationHelper as DefaultHelper
+import gate.mimir.sparql.SPARQLSemanticAnnotationHelper as SPARQLHelper
+import gate.mimir.util.DocumentFeaturesMetadataHelper
+import gate.mimir.sparql.RequestMethod as RM
+
+tokenASName = ""
+tokenAnnotationType = ANNIEConstants.TOKEN_ANNOTATION_TYPE
+tokenFeatures = {
+  string()
+  category()
+  root()
+}
+
+def standardHelper (type) {
+return new SPARQLHelper (
+sparqlEndpoint :'http://localhost:7200/repositories/BIODIV',
+sparqlRequestMethod:RM. POST_ENCODED,
+queryPrefix :
+'PREFIX rdfs:<http://www.w3.org/2000/01/rdf-schema#>\
+PREFIX xsd:<http://www.w3.org/2001/XMLSchema#>\
+PREFIX owl:<http://www.w3.org/2002/07/owl#>\
+PREFIX rdf:<http://www.w3.org/1999/02/22-rdf-syntax-ns#>',
+delegate:new DefaultHelper(annType:type, textFeatures:["start","end"], uriFeatures:["inst","broader"])
+)
+}
+
+
+semanticASName = "BIODIV"
+semanticAnnotations = {
+index{
+annotation helper : standardHelper ('Organism')
+}
+
+index{
+annotation helper : standardHelper ('Environment')
+}
+
+index{
+annotation helper : standardHelper ('Material')
+}
+
+index{
+annotation helper : standardHelper ('Quality')
+}
+
+index{
+annotation helper : standardHelper ('Process')
+}
+
+
+index {
+annotation helper:new DefaultHelper(annType:'Token.root') 
+annotation helper:new DefaultHelper(annType:'title') 
+annotation helper:new DefaultHelper(annType:'abstract') 
+annotation helper:new DefaultHelper(annType:'description') 
+annotation helper:new DefaultHelper(annType:'methods')
+annotation helper:new DefaultHelper(annType:'instrumentation')
+annotation helper:new DefaultHelper(annType:'sampling')
+annotation helper:new DefaultHelper(annType:'keyword') 
+annotation helper:new DefaultHelper(annType:'attributeList')    
+annotation helper:new DefaultHelper(annType:'coverage')
+
+}
+}
+documentRenderer = new OriginalMarkupMetadataHelper()
+documentFeaturesHelper = new DocumentFeaturesMetadataHelper("date",
+"source","id", "type")
+documentMetadataHelpers = [documentRenderer,documentFeaturesHelper]
+
+// miscellaneous options - these are the defaults
+//timeBetweenBatches = 1.hour
+//maximumBatches = 20
