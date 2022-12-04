@@ -1,0 +1,203 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>de.unijena.cs.fusion</groupId>
+  <artifactId>slibAPI</artifactId>
+  <version>0.0.1</version>
+
+
+ <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <maven.compiler.target>1.8</maven.compiler.target>
+    <maven.compiler.source>1.8</maven.compiler.source>
+</properties>
+
+
+<dependencies>
+  
+
+<dependency>
+    <groupId>com.github.sharispe</groupId>
+    <artifactId>slib-graph</artifactId>
+    <version>0.9.5</version>
+    <type>pom</type>
+   <exclusions>
+            <exclusion>
+	          <groupId>ch.qos.logback</groupId>
+	          <artifactId>logback-classic</artifactId>
+	        </exclusion>
+	        <exclusion>
+	          <groupId>org.slf4j</groupId>
+	          <artifactId>log4j-over-slf4j</artifactId>
+	        </exclusion>
+	        <exclusion>
+	          <groupId>org.slf4j</groupId>
+	          <artifactId>jcl-over-slf4j</artifactId>
+	        </exclusion>
+	        <exclusion>
+        		<groupId>org.slf4j</groupId>
+        		<artifactId>slf4j-log4j12</artifactId>
+    		</exclusion>
+        	</exclusions>
+    
+</dependency>
+
+<dependency>
+    <groupId>com.github.sharispe</groupId>
+    <artifactId>slib-graph-io</artifactId>
+    <version>0.9.5</version>
+    <exclusions>
+            <exclusion>
+	          <groupId>ch.qos.logback</groupId>
+	          <artifactId>logback-classic</artifactId>
+	        </exclusion>
+	        <exclusion>
+	          <groupId>org.slf4j</groupId>
+	          <artifactId>log4j-over-slf4j</artifactId>
+	        </exclusion>
+	        <exclusion>
+	          <groupId>org.slf4j</groupId>
+	          <artifactId>jcl-over-slf4j</artifactId>
+	        </exclusion>
+	        <exclusion>
+        		<groupId>org.slf4j</groupId>
+        		<artifactId>slf4j-log4j12</artifactId>
+    		</exclusion>
+        	</exclusions>
+</dependency>
+
+<dependency>
+    <groupId>com.github.sharispe</groupId>
+    <artifactId>slib-sml</artifactId>
+    <version>0.9.5</version>
+    <exclusions>
+            <exclusion>
+	          <groupId>ch.qos.logback</groupId>
+	          <artifactId>logback-classic</artifactId>
+	        </exclusion>
+	        <exclusion>
+	          <groupId>org.slf4j</groupId>
+	          <artifactId>log4j-over-slf4j</artifactId>
+	        </exclusion>
+	        <exclusion>
+	          <groupId>org.slf4j</groupId>
+	          <artifactId>jcl-over-slf4j</artifactId>
+	        </exclusion>
+	        <exclusion>
+        		<groupId>org.slf4j</groupId>
+        		<artifactId>slf4j-log4j12</artifactId>
+    		</exclusion>
+        	</exclusions>
+</dependency>
+
+<dependency>
+            <groupId>com.github.sharispe</groupId>
+            <artifactId>slib-utils</artifactId>
+            <version>0.9.5</version>
+   			<exclusions>
+            <exclusion>
+	          <groupId>ch.qos.logback</groupId>
+	          <artifactId>logback-classic</artifactId>
+	        </exclusion>
+	        <exclusion>
+	          <groupId>org.slf4j</groupId>
+	          <artifactId>log4j-over-slf4j</artifactId>
+	        </exclusion>
+	        <exclusion>
+	          <groupId>org.slf4j</groupId>
+	          <artifactId>jcl-over-slf4j</artifactId>
+	        </exclusion>
+	        <exclusion>
+        		<groupId>org.slf4j</groupId>
+        		<artifactId>slf4j-log4j12</artifactId>
+    		</exclusion>
+        	</exclusions>
+        </dependency>
+        
+        <dependency>
+            <groupId>com.github.sharispe</groupId>
+            <artifactId>slib-graph-model-impl</artifactId>
+            <version>0.9.5</version>
+            <exclusions>
+            <exclusion>
+	          <groupId>ch.qos.logback</groupId>
+	          <artifactId>logback-classic</artifactId>
+	        </exclusion>
+	        <exclusion>
+	          <groupId>org.slf4j</groupId>
+	          <artifactId>log4j-over-slf4j</artifactId>
+	        </exclusion>
+	        <exclusion>
+	          <groupId>org.slf4j</groupId>
+	          <artifactId>jcl-over-slf4j</artifactId>
+	        </exclusion>
+	        <exclusion>
+        		<groupId>org.slf4j</groupId>
+        		<artifactId>slf4j-log4j12</artifactId>
+    		</exclusion>
+        	</exclusions>
+        </dependency>
+        <dependency>
+            <groupId>com.github.sharispe</groupId>
+            <artifactId>slib-indexer</artifactId>
+            <version>0.9.5</version>
+      
+    		<exclusions>
+            <exclusion>
+	          <groupId>ch.qos.logback</groupId>
+	          <artifactId>logback-classic</artifactId>
+	        </exclusion>
+	        <exclusion>
+	          <groupId>org.slf4j</groupId>
+	          <artifactId>log4j-over-slf4j</artifactId>
+	        </exclusion>
+	        <exclusion>
+	          <groupId>org.slf4j</groupId>
+	          <artifactId>jcl-over-slf4j</artifactId>
+	        </exclusion>
+	        <exclusion>
+        		<groupId>org.slf4j</groupId>
+        		<artifactId>slf4j-log4j12</artifactId>
+    		</exclusion>
+        	</exclusions>
+        </dependency>
+        
+        <dependency>
+            <groupId>com.github.sharispe</groupId>
+            <artifactId>slib-graph-algo</artifactId>
+            <version>0.9.5</version>
+            <exclusions>
+            <exclusion>
+	          <groupId>ch.qos.logback</groupId>
+	          <artifactId>logback-classic</artifactId>
+	        </exclusion>
+	        <exclusion>
+	          <groupId>org.slf4j</groupId>
+	          <artifactId>log4j-over-slf4j</artifactId>
+	        </exclusion>
+	        <exclusion>
+	          <groupId>org.slf4j</groupId>
+	          <artifactId>jcl-over-slf4j</artifactId>
+	        </exclusion>
+	        <exclusion>
+        		<groupId>org.slf4j</groupId>
+        		<artifactId>slf4j-log4j12</artifactId>
+    		</exclusion>
+        	</exclusions>
+        </dependency>
+   
+   <!-- <dependency>
+    <groupId>ch.qos.logback</groupId>
+    <artifactId>logback-classic</artifactId>
+    <version>1.2.2</version>
+
+  </dependency>-->
+    <dependency>
+    <groupId>org.slf4j</groupId>
+    <artifactId>slf4j-api</artifactId>
+    <version>1.7.30</version>
+    </dependency> 
+        
+  </dependencies>
+  
+  
+</project>
