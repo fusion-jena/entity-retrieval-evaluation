@@ -1,5 +1,7 @@
 # Entity Retrieval Evaluation
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7396799.svg)](https://doi.org/10.5281/zenodo.7396799)
+
 This repository provides the code of experiments for entity based retrieval taking semantic relations of entities into account.
 
 We utilized the following implemented scorer from [GATE Mímir](https://github.com/GateNLP/mimir/):
