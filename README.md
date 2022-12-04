@@ -104,5 +104,9 @@ Download and install the Mímir search API project. In the ``MimirSearch.java`` 
 
 The MimirTest project provides the code we ran to evaluate entity expansion and entity-based ranking functions on two test collections. It can be also used as example code for own search purposes and evaluations. 
 
+## TREC evaluation
+
+The evaluation results are available at Zenodo: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7396782.svg)](https://doi.org/10.5281/zenodo.7396782)
+
 ## License
 The code in this project is distributed under the terms of the [GNU LGPL v3.0.](https://www.gnu.org/licenses/lgpl-3.0.en.html)
