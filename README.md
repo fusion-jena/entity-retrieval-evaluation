@@ -22,17 +22,17 @@ For the node level computation in HCF-IDF, we utilized [slib](https://github.com
 
 ## Overview of the available software code
 
-* [SML extension](https://github.com/MetadataRetrieval/code/tree/main/slib-sml/src/main/java/slib/sml/sm/core/engine)(node level computation for HCF-IDF)
+* [SML extension](ttps://github.com/fusion-jena/entity-retrieval-evaluation/tree/main/slib-sml/src/main/java/slib/sml/sm/core/engine)(node level computation for HCF-IDF)
 
-* [slibAPI](https://github.com/fusion-jena/entity-retrieval-evaluation/code/tree/main/slibAPI) (Wrapper)
+* [slibAPI](https://github.com/fusion-jena/entity-retrieval-evaluation/tree/main/slibAPI) (Wrapper)
 
-* [GATE Mimír plugins](https://github.com/fusion-jena/entity-retrieval-evaluation/code/tree/main/Mimir6.2)
+* [GATE Mimír plugins](https://github.com/fusion-jena/entity-retrieval-evaluation/tree/main/Mimir6.2)
 
-* [Mímir Search API](https://github.com/fusion-jena/entity-retrieval-evaluation/code/tree/main/MimirSearchAPI) (Wrapper)
+* [Mímir Search API](https://github.com/fusion-jena/entity-retrieval-evaluation/tree/main/MimirSearchAPI) (Wrapper)
 
 * [Mímir Test](https://github.com/fusion-jena/entity-retrieval-evaluation/tree/main/MimirTest/mimirTest)
 
-* [BiodivTagger](https://github.com/fusion-jena/entity-retrieval-evaluation/code/tree/main/BiodivTagger)
+* [BiodivTagger](https://github.com/fusion-jena/entity-retrieval-evaluation/tree/main/BiodivTagger)
 
 ## Installation instructions for entity linking in metadata
 
