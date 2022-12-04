@@ -22,7 +22,7 @@ For the node level computation in HCF-IDF, we utilized [slib](https://github.com
 
 ## Overview of the available software code
 
-* [SML extension](ttps://github.com/fusion-jena/entity-retrieval-evaluation/tree/main/slib-sml/src/main/java/slib/sml/sm/core/engine)(node level computation for HCF-IDF)
+* [SML extension](https://github.com/fusion-jena/entity-retrieval-evaluation/tree/main/slib-sml/src/main/java/slib/sml/sm/core/engine)(node level computation for HCF-IDF)
 
 * [slibAPI](https://github.com/fusion-jena/entity-retrieval-evaluation/tree/main/slibAPI) (Wrapper)
 
