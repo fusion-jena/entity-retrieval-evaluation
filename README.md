@@ -37,7 +37,7 @@ For the node level computation in HCF-IDF, we utilized [slib](https://github.com
 
 prerequisites: The following instructions have been tested with Java 8 and [GATE version 8.6.1](https://gate.ac.uk/). Please download and install GATE 8.6. Please also download, unzip and load the [Ontology plugin](https://github.com/GateNLP/gateplugin-Ontology/releases/tag/v8.5). To load the plugin, start GATE and open the Plugin Manager (the jigsaw icon) in the menu. Then select "open from folder" and navigate to the folder with the Ontology plugin.
 
-### Load the BEF-China and bioCaddie pipelines
+#### Load the BEF-China and bioCaddie pipelines
 
 Please download the pipelines from Zenodo:
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7427283.svg)](https://doi.org/10.5281/zenodo.7427283)
