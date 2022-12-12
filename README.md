@@ -32,7 +32,6 @@ For the node level computation in HCF-IDF, we utilized [slib](https://github.com
 
 * [Mímir Test](https://github.com/fusion-jena/entity-retrieval-evaluation/tree/main/MimirTest/mimirTest)
 
-* [BiodivTagger](https://github.com/fusion-jena/entity-retrieval-evaluation/tree/main/BiodivTagger)
 
 ## Installation instructions for entity linking in metadata
 
