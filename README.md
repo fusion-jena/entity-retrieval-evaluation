@@ -37,7 +37,10 @@ For the node level computation in HCF-IDF, we utilized [slib](https://github.com
 
 prerequisites: The following instructions have been tested with Java 8 and [GATE version 8.6.1](https://gate.ac.uk/). Please download and install GATE 8.6. Please also download, unzip and load the [Ontology plugin](https://github.com/GateNLP/gateplugin-Ontology/releases/tag/v8.5). To load the plugin, start GATE and open the Plugin Manager (the jigsaw icon) in the menu. Then select "open from folder" and navigate to the folder with the Ontology plugin.
 
-#### Load the extended BiodivTagger pipeline
+#### Load the BEF-China and bioCaddie pipelines
+
+Please download the pipelines from Zenodo:
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7427283.svg)](https://doi.org/10.5281/zenodo.7427283)
 
 To load a new application in the GATE UI, do a right-click on "Application" and "Restore Application from file". Then navigate to the application.xgapp file of the BEFCHina or BioCADDIE folder. Create a new corpus and add a metadata file you want to annotate, e.g., download the [BEFChina](https://bef-china.com/) datasets and annotate them (run the pipeline). 
 
