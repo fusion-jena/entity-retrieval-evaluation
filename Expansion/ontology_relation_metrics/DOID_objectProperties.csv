@@ -1,0 +1,5 @@
+count,o,label
+2805,http://purl.obolibrary.org/obo/IDO_0000664,has material basis in
+1122,http://purl.obolibrary.org/obo/doid#has_symptom,has_symptom
+605,http://purl.obolibrary.org/obo/doid#derives_from,derives_from
+2,http://purl.obolibrary.org/obo/RO_0002220,adjacent_to

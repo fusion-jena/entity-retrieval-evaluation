@@ -1,0 +1,14 @@
+# Search for data of all types related to the ob gene [GeneProtein] in obese ({Disease inst="http://purl.obolibrary.org/obo/NCIT_C159658"}) M. musculus [Organism - http://purl.obolibrary.org/obo/NCBITaxon_10090] across all databases.
+
+###########################################################
+### simple URI query###############
+###########################################################
+# 
+({GeneProtein inst="http://purl.obolibrary.org/obo/NCIT_C46081"} OR {GeneProtein inst="http://purl.obolibrary.org/obo/NCIT_C95047"})
+AND
+{Disease inst="http://purl.obolibrary.org/obo/NCIT_C159658"}
+AND
+{Organism inst="http://purl.obolibrary.org/obo/NCBITaxon_10090"}
+
+
+###########################################################

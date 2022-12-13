@@ -1,0 +1,7 @@
+broader
+http://purl.obolibrary.org/obo/PATO_0000025
+http://purl.obolibrary.org/obo/TO_0000465
+_:node3373715
+_:node3373716
+_:node3505878
+_:node3505879

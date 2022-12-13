@@ -1,0 +1,24 @@
+# Search for gene expression [Process - http://purl.obolibrary.org/obo/GO_0010467] datasets on photo transduction [Process - http://purl.obolibrary.org/obo/GO_0009293] and regulation [Process - http://purl.obolibrary.org/obo/INO_0000157] of calcium [Material - http://purl.obolibrary.org/obo/CHEBI_29320] in blind D. melanogaster [Organism - http://purl.obolibrary.org/obo/NCBITaxon_7227].
+
+###########################################################
+### simple URI query ###############
+###########################################################
+#
+{GeneProtein} AND
+({Process inst="http://purl.obolibrary.org/obo/GO_0010467"} 
+OR {Process inst="http://purl.obolibrary.org/obo/INO_0000102"} 
+OR {Process inst="http://purl.obolibrary.org/obo/NCIT_C16608"}
+OR {Process inst="http://purl.obolibrary.org/obo/NCIT_C21049"})
+AND
+({Process inst="http://purl.obolibrary.org/obo/GO_0009293"} OR 
+{Process inst="http://purl.obolibrary.org/obo/NCIT_C142787"})
+AND
+({Process inst="http://purl.obolibrary.org/obo/INO_0000157"}
+OR {Process inst="http://purl.obolibrary.org/obo/NCIT_C48805"})
+AND
+{Material inst="http://purl.obolibrary.org/obo/CHEBI_22984"}
+AND
+{Organism inst="http://purl.obolibrary.org/obo/NCBITaxon_7227"}
+
+
+###########################################################

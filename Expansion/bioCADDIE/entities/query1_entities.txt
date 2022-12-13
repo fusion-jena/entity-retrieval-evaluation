@@ -1,0 +1,3 @@
+<http://purl.obolibrary.org/obo/NCBITaxon_2>
+<http://purl.obolibrary.org/obo/GO_0006935>
+<http://purl.obolibrary.org/obo/NCIT_C16422>

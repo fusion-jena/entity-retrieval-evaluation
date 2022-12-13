@@ -1,0 +1,21 @@
+#How does the nitrogen (Material:http://purl.obolibrary.org/obo/CHEBI_25555) cycle interact (http://purl.obolibrary.org/obo/INO_0000002) with water (Material:http://purl.obolibrary.org/obo/CHEBI_15377)? 
+#expert comment: I assumed that these data can be contained in separate data sets (i.e. one file for N, one for water, need to be merged based on e.g. plot ID)
+# 61 documents returned
+
+# what further elements/concepts occur in nitrogen cycle?
+
+-------------------------------------------------------------------------------------------------------------
+###########################################################
+### simple URI query ###############
+###########################################################
+# 24 documents
+({Process inst="http://purl.obolibrary.org/obo/ENVO_01001330"}
+OR
+{Material inst="http://purl.obolibrary.org/obo/CHEBI_17997"})
+AND
+({Material inst="http://purl.obolibrary.org/obo/ENVO_00002006"}
+OR
+{Material inst="http://purl.obolibrary.org/obo/CHEBI_15377"})
+
+
+######################################

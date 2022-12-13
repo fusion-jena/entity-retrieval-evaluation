@@ -1,0 +1,15 @@
+#Does the carbon (http://purl.obolibrary.org/obo/CHEBI_27594) value get larger with soil (Material:ENVO_00001998) depth (Quality:http://purl.obolibrary.org/obo/PATO_0001595)?
+
+----------------------------------------------------------------------------------
+
+###########################################################
+### simple URI query ###############
+###########################################################
+# 0 documents
+{Material inst="http://purl.obolibrary.org/obo/CHEBI_27594"}
+AND
+{Material inst="http://purl.obolibrary.org/obo/ENVO_00001998"}
+AND
+{Material inst="http://purl.obolibrary.org/obo/PATO_0001595"}
+
+###############################################

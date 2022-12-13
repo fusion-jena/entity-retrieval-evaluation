@@ -1,0 +1,13 @@
+# Search for all data for the HTT [GeneProtein - http://purl.obolibrary.org/obo/PR_P31645] gene related to Huntington's disease [Disease - http://purl.obolibrary.org/obo/DOID_12858] across all databases.
+
+###########################################################
+### simple URI query ###############
+###########################################################
+# 
+
+({GeneProtein inst="http://purl.obolibrary.org/obo/NCIT_C88918"} 
+OR {GeneProtein inst="http://purl.obolibrary.org/obo/NCIT_C105875"})
+AND
+({Disease inst="http://purl.obolibrary.org/obo/DOID_12858"} OR {Disease inst="http://purl.obolibrary.org/obo/NCIT_C82342"})
+
+###########################################################

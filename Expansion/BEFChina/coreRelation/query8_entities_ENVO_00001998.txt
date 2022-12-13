@@ -1,0 +1,8 @@
+object
+http://purl.obolibrary.org/obo/ENVO_00002982
+http://purl.obolibrary.org/obo/ENVO_01000016
+http://purl.obolibrary.org/obo/ENVO_01000017
+http://purl.obolibrary.org/obo/ENVO_01000155
+http://purl.obolibrary.org/obo/ENVO_01000256
+_:node3200191
+http://purl.obolibrary.org/obo/PATO_0000984

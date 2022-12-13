@@ -1,0 +1,12 @@
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+SELECT DISTINCT (COUNT(?s) as ?count) ?o ?label
+FROM NAMED <http://XXX/BIODIV/CHEBI>
+WHERE{
+    GRAPH ?g{
+	    ?s owl:onProperty ?o.
+        ?o rdfs:label ?label
+       
+    }
+}
+GROUP BY ?o ?label

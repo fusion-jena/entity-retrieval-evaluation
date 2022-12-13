@@ -1,0 +1,34 @@
+# Search for data of all types related to energy metabolism [Process - http://purl.obolibrary.org/obo/GO_0006112] in obese [{Disease inst="http://purl.obolibrary.org/obo/NCIT_C159658"}] M. musculus [Organism - http://purl.obolibrary.org/obo/NCBITaxon_10090].
+#{Process inst="http://purl.obolibrary.org/obo/GO_0006112"} AND {Organism inst="http://purl.obolibrary.org/obo/NCBITaxon_10090"} (AND {GeneMice inst="http://purl.obolibrary.org/obo/OGG_3000016846"} )
+# ({Process inst="http://purl.obolibrary.org/obo/GO_0006112"} OR metabolism) AND {Organism inst="http://purl.obolibrary.org/obo/NCBITaxon_10090"} AND ({GeneProteinMice inst="http://purl.obolibrary.org/obo/OGG_3000016846"}  OR ob OR obese OR lep OR leptin)
+###########################################################
+### simple URI query ###############
+###########################################################
+# 0 results
+({Process inst="http://purl.obolibrary.org/obo/GO_0006112"} OR {Process inst="http://purl.obolibrary.org/obo/NCIT_C16547"})
+AND
+{Disease inst="http://purl.obolibrary.org/obo/NCIT_C159658"}
+AND
+{Organism inst="http://purl.obolibrary.org/obo/NCBITaxon_10090"}
+
+
+###########################################################
+### URI query with terms from frequent relations ###############
+###########################################################
+
+###########################################################
+### URI query with narrower terms #########################
+###########################################################
+# 7 results
+
+###########################################################
+### URI query with broader terms #########################
+###########################################################
+# 87800
+
+###########################################################
+### URI query with narrower and broader terms ###############
+###########################################################
+# 87800
+
+######################################################

@@ -1,0 +1,6 @@
+<http://purl.obolibrary.org/obo/SYMP_0000061>
+<http://purl.obolibrary.org/obo/NCIT_C3137>
+<http://purl.obolibrary.org/obo/HP_0025464>
+<http://purl.obolibrary.org/obo/NCBITaxon_9606>
+<http://purl.obolibrary.org/obo/CL_0000182>
+<http://purl.obolibrary.org/obo/NCIT_C12588>

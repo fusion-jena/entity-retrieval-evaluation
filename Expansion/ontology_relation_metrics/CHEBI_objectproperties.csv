@@ -1,0 +1,10 @@
+count,o,label
+34119,http://purl.obolibrary.org/obo/RO_0000087,has role
+2162,http://purl.obolibrary.org/obo/chebi#is_enantiomer_of,is enantiomer of
+3131,http://purl.obolibrary.org/obo/BFO_0000051,has part
+13419,http://purl.obolibrary.org/obo/chebi#has_functional_parent,has functional parent
+6757,http://purl.obolibrary.org/obo/chebi#is_conjugate_acid_of,is conjugate acid of
+1504,http://purl.obolibrary.org/obo/chebi#has_parent_hydride,has parent hydride
+1518,http://purl.obolibrary.org/obo/chebi#is_tautomer_of,is tautomer of
+6758,http://purl.obolibrary.org/obo/chebi#is_conjugate_base_of,is conjugate base of
+1120,http://purl.obolibrary.org/obo/chebi#is_substituent_group_from,is substituent group from

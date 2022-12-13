@@ -1,0 +1,8 @@
+# Which associated taxa have been found, for example, an insect and its host? 
+# comment from expert: Included all non-tree taxa, also when only assessed on plot-level (i.e. not tree-species specific)
+# 154 datasets
+{Organism}
+AND
+{Organism}
+
+# exclude same instances from sparql or leave query out

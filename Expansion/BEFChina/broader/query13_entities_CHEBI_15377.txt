@@ -1,0 +1,12 @@
+broader
+http://purl.obolibrary.org/obo/CHEBI_33693
+http://purl.obolibrary.org/obo/CHEBI_37176
+http://purl.obolibrary.org/obo/CHEBI_52625
+_:node2136966
+_:node2136967
+_:node2136968
+_:node2136969
+_:node2136970
+_:node2136971
+_:node2136972
+_:node2136973

@@ -1,0 +1,14 @@
+# Find data on the I-kappaB kinase/NF-kappaB signaling [Process - http://purl.obolibrary.org/obo/GO_0007249] pathway in MG (Myasthenia gravis) [Disease - http://purl.obolibrary.org/obo/DOID_437] patients.
+
+###########################################################
+### simple URI query ###############
+###########################################################
+# 
+({Process inst="http://purl.obolibrary.org/obo/GO_0007249"} OR {Process inst="http://purl.obolibrary.org/obo/NCIT_C39163"} OR {GeneProtein inst="http://purl.obolibrary.org/obo/NCIT_C17380"})
+AND
+({Disease inst="http://purl.obolibrary.org/obo/DOID_437"} 
+OR {Disease inst="http://purl.obolibrary.org/obo/NCIT_C143232"}
+OR {Disease inst="http://purl.obolibrary.org/obo/NCIT_C60989"}
+OR {Disease inst="http://purl.obolibrary.org/obo/HP_0003473"})
+
+###########################################################

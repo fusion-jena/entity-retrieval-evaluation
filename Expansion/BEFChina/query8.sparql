@@ -1,0 +1,17 @@
+# Are soil (Material:ENVO_00001998) samples in BEF China data acidic (http://purl.obolibrary.org/obo/PATO_0001429, ph-value: http://purl.obolibrary.org/obo/PATO_0001842)? (SP1e, SP2e)
+
+
+----------------------------------------------------------------------------------
+
+###########################################################
+### simple URI query ###############
+###########################################################
+# 19 documents
+{Material inst ="http://purl.obolibrary.org/obo/ENVO_00001998"}
+AND
+({Quality inst = "http://purl.obolibrary.org/obo/PATO_0001429"}
+OR
+{Quality inst = "http://purl.obolibrary.org/obo/PATO_0001842"}
+)
+
+##############################################

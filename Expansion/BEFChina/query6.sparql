@@ -1,0 +1,18 @@
+# Identify all parameters that are correlated to soil (Material:ENVO_00001998)? depth (Quality:http://purl.obolibrary.org/obo/PATO_0001595)
+
+----------------------------------------------------------------------------------
+
+###########################################################
+### simple URI query ###############
+###########################################################
+# 54 documents
+({Quality})
+AND
+({Material inst = "http://purl.obolibrary.org/obo/ENVO_00001998"}
+AND
+{Quality inst = "http://purl.obolibrary.org/obo/PATO_0001595"}
+)
+
+
+
+#######################

@@ -1,0 +1,19 @@
+# Search for gene expression [Process - http://purl.obolibrary.org/obo/INO_0000102] and genetic deletion [???] data that mention CD69 [GeneProtein - http://purl.obolibrary.org/obo/PR_Q07108] in memory [Process - http://purl.obolibrary.org/obo/GO_0007613] augmentation studies across all databases.
+#({Process inst="http://purl.obolibrary.org/obo/INO_0000102"} 
+
+###########################################################
+### simple URI query ###############
+###########################################################
+# 
+({Process inst="http://purl.obolibrary.org/obo/INO_0000102"} OR {Process inst="http://purl.obolibrary.org/obo/GO_0010467"}
+OR {Process inst="http://purl.obolibrary.org/obo/NCIT_C16608"} OR {Process inst="http://purl.obolibrary.org/obo/NCIT_C21049"}
+)
+AND
+genetic deletion
+AND
+({GeneProtein inst = "http://purl.obolibrary.org/obo/NCIT_C104074"}
+OR {GeneProtein inst="http://purl.obolibrary.org/obo/NCIT_C104075"}) (kind element)
+AND
+({Process inst = "http://purl.obolibrary.org/obo/GO_0007613"} OR {Process inst="http://purl.obolibrary.org/obo/NCIT_C37992"})
+
+###########################################################

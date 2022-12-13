@@ -1,0 +1,23 @@
+# Search for all data types related to gene TP53INP1 [GeneProtein - http://purl.obolibrary.org/obo/SO_0000704,http://purl.obolibrary.org/obo/PR_000030462,http://purl.obolibrary.org/obo/NCIT_C92490] in relation to p53 [GeneProtein - http://purl.obolibrary.org/obo/PR_P04637,http://purl.obolibrary.org/obo/NCIT_C17359] activation [Process - http://purl.obolibrary.org/obo/REX_0000221] across all databases.
+# ({GeneProtein inst ="http://purl.obolibrary.org/obo/PR_000030462"} OR TP53INP1 ) AND ({GeneProtein inst="http://purl.obolibrary.org/PR_P04637"} OR p53 OR TP53 OR hTP53)
+# INO für Process bevorzugen
+
+###########################################################
+### simple URI query  ###############
+###########################################################
+# 
+({GeneProtein inst = "http://purl.obolibrary.org/obo/NCIT_C92490"}
+OR {GeneProtein inst="http://purl.obolibrary.org/obo/NCIT_C118396"}
+OR {GeneProtein inst="http://purl.obolibrary.org/obo/NCIT_C17359"}
+OR {GeneProtein inst="http://purl.obolibrary.org/obo/NCIT_C17387"}
+OR {GeneProtein inst="http://purl.obolibrary.org/obo/NCIT_C52271"})
+AND
+({GeneProtein inst = "http://purl.obolibrary.org/obo/NCIT_C17359"}
+OR {GeneProtein inst="http://purl.obolibrary.org/obo/NCIT_C17387"}
+OR {GeneProtein inst="http://purl.obolibrary.org/obo/NCIT_C52271"})
+AND
+({Process inst = "http://purl.obolibrary.org/obo/REX_0000221"} OR
+{Process inst="http://purl.obolibrary.org/obo/INO_0000024"})
+
+
+###########################################################

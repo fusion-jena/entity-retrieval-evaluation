@@ -1,0 +1,24 @@
+# Find 3 datasets where dry (PATO_1824) weights (PATO_0000128) from conifers (Pinidae-3313,Coniferophyta-3312) have been measured 
+# 03.01.2020: add mass (PATO_0000125)?
+
+
+----------------------------------------------------------------------------------
+
+###########################################################
+### simple URI query ###############
+###########################################################
+# 0 documents
+({Organism inst = "http://purl.obolibrary.org/obo/NCBITaxon_3313"}
+OR
+{Organism inst = "http://purl.obolibrary.org/obo/NCBITaxon_3312"}
+) AND
+(
+({Quality inst = "http://purl.obolibrary.org/obo/PATO_0001824"}
+OR
+{Quality inst = "http://purl.obolibrary.org/obo/PATO_0001801"})
+AND
+{Quality inst = "http://purl.obolibrary.org/obo/PATO_0000128"}
+)
+
+
+##########################################

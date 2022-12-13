@@ -1,0 +1,5 @@
+<http://purl.obolibrary.org/obo/NCBITaxon_3313>
+<http://purl.obolibrary.org/obo/NCBITaxon_3312>
+<http://purl.obolibrary.org/obo/PATO_0001824>
+<http://purl.obolibrary.org/obo/PATO_0001801>
+<http://purl.obolibrary.org/obo/PATO_0000128>

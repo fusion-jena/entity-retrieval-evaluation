@@ -1,0 +1,27 @@
+#How significant is the role of throughfall (Kronendurchlass) (precipitation, Niederschlag: ENVO:01000875) as water (http://purl.obolibrary.org/obo/CHEBI_15377) input to the forest (http://purl.obolibrary.org/obo/ENVO_00000111) floor? (6e)
+# 10 datasets returned (but nothing relevant)
+# throughfall:4 results (incl relevant datasets)
+# precipitation (Niederschlag) process: ENVO:01000875
+
+#throughfall - replacement with precipation?
+
+-------------------------------------------------------------------------------------------------------------
+###########################################################
+### simple URI query ###############
+###########################################################
+# 10 documents
+(
+{Process inst ="http://purl.obolibrary.org/obo/ENVO_01000875"}
+OR
+{Material inst ="http://purl.obolibrary.org/obo/CHEBI_15377"}
+OR
+{Material inst ="http://purl.obolibrary.org/obo/ENVO_00002006"}
+)
+AND 
+({Environment inst="http://purl.obolibrary.org/obo/ENVO_01001582"}
+OR
+{Environment inst="http://purl.obolibrary.org/obo/ENVO_00000111"})
+
+
+########################################
+

@@ -1,0 +1,5 @@
+<http://purl.obolibrary.org/obo/ENVO_01000875>
+<http://purl.obolibrary.org/obo/CHEBI_15377>
+<http://purl.obolibrary.org/obo/ENVO_00002006>
+<http://purl.obolibrary.org/obo/ENVO_01001582>
+<http://purl.obolibrary.org/obo/ENVO_00000111>

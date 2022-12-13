@@ -1,0 +1,16 @@
+# Find all data types related to inflammation [Disease - http://purl.obolibrary.org/obo/SYMP_0000061] during oxidative stress [Disease - http://purl.obolibrary.org/obo/HP_0025464] in human [Organism - http://purl.obolibrary.org/obo/NCBITaxon_9606] hepatic cells [Anatomy -  	
+http://purl.obolibrary.org/obo/CL_0000182] (part_of liver (http://purl.obolibrary.org/obo/UBERON_0002107)) across all databases.
+
+############################################################
+### simple URI query ###############
+###########################################################
+# 
+({Disease inst="http://purl.obolibrary.org/obo/SYMP_0000061"} OR {Disease inst="http://purl.obolibrary.org/obo/NCIT_C3137"})
+AND
+{Disease inst = "http://purl.obolibrary.org/obo/HP_0025464"}
+AND
+{Organism inst = "http://purl.obolibrary.org/obo/NCBITaxon_9606"}
+AND
+({Anatomy inst="http://purl.obolibrary.org/obo/CL_0000182"} OR {Anatomy inst="http://purl.obolibrary.org/obo/NCIT_C12588"})
+
+###########################################################

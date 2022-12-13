@@ -1,0 +1,8 @@
+<http://purl.obolibrary.org/obo/UBERON_0000955>
+<http://purl.obolibrary.org/obo/NCIT_C12439>
+<http://purl.obolibrary.org/obo/BTO_0000142>
+<http://purl.obolibrary.org/obo/UBERON_0000479>
+<http://purl.obolibrary.org/obo/NCIT_C12801>
+<http://purl.obolibrary.org/obo/NCBITaxon_10090>
+<http://purl.obolibrary.org/obo/DOID_12858> 
+<http://purl.obolibrary.org/obo/NCIT_C82342>

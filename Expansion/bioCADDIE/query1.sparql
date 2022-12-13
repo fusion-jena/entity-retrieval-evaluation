@@ -1,0 +1,14 @@
+# Find protein sequencing [GeneProtein] data related to bacterial [Organism - http://purl.bioontology.org/ontology/NCBITAXON/2] chemotaxis [Process - http://purl.obolibrary.org/obo/GO_0006935] across all databases.
+
+
+###########################################################
+### simple URI query ###############
+###########################################################
+# 
+{GeneProtein} 
+AND
+{Organism inst = "http://purl.obolibrary.org/obo/NCBITaxon_2"}
+AND
+({Process inst = "http://purl.obolibrary.org/obo/GO_0006935"} OR {Process inst = "http://purl.obolibrary.org/obo/NCIT_C16422"})
+
+######################################################

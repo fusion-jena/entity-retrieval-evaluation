@@ -1,0 +1,14 @@
+# Name 3 species that occur in (shrub) woodland area (ENVO_00000109)
+
+
+###########################################################
+### simple URI query ###############
+###########################################################
+# 
+{Organism} AND
+({Environment inst = "http://purl.obolibrary.org/obo/ENVO_00000109"} OR
+{Environment inst="http://purl.obolibrary.org/obo/ENVO_00000107"} OR
+{Environment inst="http://purl.obolibrary.org/obo/ENVO_00000301"})
+
+
+######################################################

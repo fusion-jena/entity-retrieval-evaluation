@@ -1,0 +1,4 @@
+<http://purl.obolibrary.org/obo/NCBITaxon_3503> 
+<http://purl.obolibrary.org/obo/NCBITaxon_38942>
+<http://purl.obolibrary.org/obo/CHEBI_17997>
+<http://purl.obolibrary.org/obo/TO_0020093>

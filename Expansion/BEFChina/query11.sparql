@@ -1,0 +1,18 @@
+#Is there data about the leaf area index (LAI) (Quality: http://purl.obolibrary.org/obo/TO_0012001) and in particular about diversity? 
+#comment from expert: Not sure: do you mean LAI data along diversity gradient? 
+#PTO - Plant Trait Ontology
+# 3 documents: {Quality inst = "http://purl.obolibrary.org/obo/TO_0012001"} AND diversity
+
+
+----------------------------------------------------------------------------------
+
+###########################################################
+### simple URI query ###############
+###########################################################
+# 8 documents
+{Quality inst = "http://purl.obolibrary.org/obo/TO_0012001"}
+OR
+{Quality inst="http://purl.obolibrary.org/obo/FLOPO_0010323"}
+
+
+################################################################

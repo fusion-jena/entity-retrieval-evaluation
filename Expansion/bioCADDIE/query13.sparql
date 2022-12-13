@@ -1,0 +1,11 @@
+# Search for all data on the SNCA [GeneProtein - http://purl.obolibrary.org/obo/PR_P37840] gene related to Parkinson's disease [Disease - http://purl.obolibrary.org/obo/DOID_14330] across all databases.
+
+###########################################################
+### simple URI query ###############
+###########################################################
+#
+{GeneProtein inst="http://purl.obolibrary.org/obo/NCIT_C90101"}
+AND
+({Disease inst="http://purl.obolibrary.org/obo/DOID_14330"} OR {Disease inst="http://purl.obolibrary.org/obo/NCIT_C26845"})
+
+###########################################################

@@ -1,0 +1,26 @@
+# which nutrients (has role macronutrient CHEBI_33937, nutrient CHEBI_33284 ) occur in soil (Material:ENVO_00001998)?
+
+
+----------------------------------------------------------------------------------
+
+###########################################################
+### simple URI query ###############
+###########################################################
+# 0 documents
+{Material inst="http://purl.obolibrary.org/obo/CHEBI_33284"}
+AND
+{Material inst="http://purl.obolibrary.org/obo/ENVO_00001998"}
+
+
+##############################################
+
+------------------------------------------------------------------------
+# Modellierung in Chebi, e.g., Kalium hasRole macronutrient
+<rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/> (has role)
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33937"/> (macronutrient)
+            </owl:Restriction>
+        </rdfs:subClassOf>
+
+# template: integrate subquery to retrieve all subclasses of nutrient instead of getting macro and micronutrient explicitally

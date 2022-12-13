@@ -1,0 +1,16 @@
+# Search for data of all types related to the LDLR gene [GeneProtein - http://purl.obolibrary.org/obo/PR_000009744,http://purl.obolibrary.org/obo/NCIT_C17074] related to cardiovascular disease [Disease - http://purl.obolibrary.org/obo/HP_0001626] across all databases.
+#{GeneProtein inst="http://purl.obolibrary.org/obo/PR_000009744"}  AND {Disease inst="http://purl.obolibrary.org/obo/HP_0001626"} OR {Disease inst="http://purl.obolibrary.org/obo/DOID_5844"}
+#http://purl.obolibrary.org/obo/DOID_1287 (cardiovascular system disease), http://purl.obolibrary.org/obo/NCIT_C2931 
+
+###########################################################
+### simple URI query ###############
+###########################################################
+# 
+({GeneProtein inst="http://purl.obolibrary.org/obo/NCIT_C28607"} 
+OR {GeneProtein inst="http://purl.obolibrary.org/obo/NCIT_C17074"} 
+OR {GeneProtein inst="http://purl.obolibrary.org/obo/NCIT_C51558"})
+AND
+({Disease inst="http://purl.obolibrary.org/obo/NCIT_C2931"} OR 
+{Disease inst="http://purl.obolibrary.org/obo/HP_0001626"})
+
+###########################################################

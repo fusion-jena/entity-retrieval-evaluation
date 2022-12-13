@@ -1,0 +1,229 @@
+prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+prefix obo: <http://purl.obolibrary.org/obo/>
+prefix oboInOwl: <http://www.geneontology.org/formats/oboInOwl#>
+SELECT DISTINCT ?object
+FROM NAMED  ?g
+WHERE{
+		{   GRAPH ?g{
+			?entity1 rdfs:subClassOf ?restriction .
+			?restriction owl:onProperty <http://purl.obolibrary.org/obo/BFO_0000051>.
+			#<http://purl.obolibrary.org/obo/BFO_0000051> rdfs:label ?propertyLabel.
+			?restriction owl:someValuesFrom ?object
+			}
+		}UNION{
+			GRAPH ?g{
+			?entity1 rdfs:subClassOf ?restriction .
+			?restriction owl:onProperty <http://purl.obolibrary.org/obo/RO_0000087>.
+			#<http://purl.obolibrary.org/obo/RO_0000087> rdfs:label ?propertyLabel.
+			?restriction owl:someValuesFrom ?object
+			}
+		}UNION{
+			GRAPH ?g{
+			?entity1 rdfs:subClassOf ?restriction .
+			?restriction owl:onProperty <http://purl.obolibrary.org/obo/RO_0001025>.
+			#<http://purl.obolibrary.org/obo/RO_0001025> rdfs:label ?propertyLabel.
+			?restriction owl:someValuesFrom ?object
+			}
+		}UNION{
+			GRAPH ?g{
+			?entity1 rdfs:subClassOf ?restriction .
+			?restriction owl:onProperty <http://purl.obolibrary.org/obo/BFO_0000050>.
+			#<http://purl.obolibrary.org/obo/BFO_0000050> rdfs:label ?propertyLabel.
+			?restriction owl:someValuesFrom ?object
+			}
+		}UNION{
+			GRAPH ?g{
+			?entity1 rdfs:subClassOf ?restriction .
+			?restriction owl:onProperty <http://purl.obolibrary.org/obo/BFO_0000066>.
+			#<http://purl.obolibrary.org/obo/BFO_0000066> rdfs:label ?propertyLabel.
+			?restriction owl:someValuesFrom ?object
+			}
+	
+		}UNION{
+			GRAPH ?g{
+			?entity1 rdfs:subClassOf ?restriction .
+			?restriction owl:onProperty <http://purl.obolibrary.org/obo/RO_0000052>.
+			#<http://purl.obolibrary.org/obo/RO_0000052> rdfs:label ?propertyLabel.
+			?restriction owl:someValuesFrom ?object
+			}
+	
+		}UNION{
+			GRAPH ?g{
+			?entity1 rdfs:subClassOf ?restriction .
+			?restriction owl:onProperty <http://purl.obolibrary.org/obo/RO_0000057>.
+			#<http://purl.obolibrary.org/obo/RO_0000057> rdfs:label ?propertyLabel.
+			?restriction owl:someValuesFrom ?object
+			}
+	
+		}UNION{
+			GRAPH ?g{
+			?entity1 rdfs:subClassOf ?restriction .
+			?restriction owl:onProperty <http://purl.obolibrary.org/obo/RO_0000086>.
+			#<http://purl.obolibrary.org/obo/RO_0000086> rdfs:label ?propertyLabel.
+			?restriction owl:someValuesFrom ?object
+			}
+	
+		}UNION{
+			GRAPH ?g{
+			?entity1 rdfs:subClassOf ?restriction .
+			?restriction owl:onProperty <http://purl.obolibrary.org/obo/RO_0001000>.
+			#<http://purl.obolibrary.org/obo/RO_0001000> rdfs:label ?propertyLabel.
+			?restriction owl:someValuesFrom ?object
+			}
+	
+		}UNION{
+			GRAPH ?g{
+			?entity1 rdfs:subClassOf ?restriction .
+			?restriction owl:onProperty <http://purl.obolibrary.org/obo/RO_0000056>.
+			#<http://purl.obolibrary.org/obo/RO_0000056> rdfs:label ?propertyLabel.
+			?restriction owl:someValuesFrom ?object
+			}
+	
+		}UNION{
+			GRAPH ?g{
+			?entity1 rdfs:subClassOf ?restriction .
+			?restriction owl:onProperty <http://purl.obolibrary.org/obo/RO_0001015>.
+			#<http://purl.obolibrary.org/obo/RO_0001015> rdfs:label ?propertyLabel.
+			?restriction owl:someValuesFrom ?object
+			}
+	
+		}UNION{
+			GRAPH ?g{
+			?entity1 rdfs:subClassOf ?restriction .
+			?restriction owl:onProperty <http://purl.obolibrary.org/obo/BFO_0000067>.
+			#<http://purl.obolibrary.org/obo/BFO_0000067> rdfs:label ?propertyLabel.
+			?restriction owl:someValuesFrom ?object
+			}
+	
+		}UNION{
+			GRAPH ?g{
+			?entity1 rdfs:subClassOf ?restriction .
+			?restriction owl:onProperty <http://purl.obolibrary.org/obo/BFO_0000055>.
+			#<http://purl.obolibrary.org/obo/BFO_0000055> rdfs:label ?propertyLabel.
+			?restriction owl:someValuesFrom ?object
+			}
+	
+		}UNION{
+			GRAPH ?g{
+			?entity1 rdfs:subClassOf ?restriction .
+			?restriction owl:onProperty <http://purl.obolibrary.org/obo/RO_0000085>.
+			#<http://purl.obolibrary.org/obo/RO_0000085> rdfs:label ?propertyLabel.
+			?restriction owl:someValuesFrom ?object
+			}
+	
+		}UNION{
+			GRAPH ?g{
+			?entity1 rdfs:subClassOf ?restriction .
+			?restriction owl:onProperty <http://purl.obolibrary.org/obo/RO_0000091>.
+			#<http://purl.obolibrary.org/obo/RO_0000091> rdfs:label ?propertyLabel.
+			?restriction owl:someValuesFrom ?object
+			}
+	
+		}UNION{
+			GRAPH ?g{
+			?entity1 rdfs:subClassOf ?restriction .
+			?restriction owl:onProperty <http://purl.obolibrary.org/obo/RO_0001001>.
+			#<http://purl.obolibrary.org/obo/RO_0001001> rdfs:label ?propertyLabel.
+			?restriction owl:someValuesFrom ?object
+			}
+	
+		}UNION{
+			GRAPH ?g{
+			?entity1 rdfs:subClassOf ?restriction .
+			?restriction owl:onProperty <http://purl.obolibrary.org/obo/BFO_0000054>.
+			#<http://purl.obolibrary.org/obo/BFO_0000054> rdfs:label ?propertyLabel.
+			?restriction owl:someValuesFrom ?object
+			}
+	
+		}UNION{
+			GRAPH ?g{
+			?entity1 rdfs:subClassOf ?restriction .
+			?restriction owl:onProperty <http://purl.obolibrary.org/obo/RO_0002351>.
+			#<http://purl.obolibrary.org/obo/RO_0002351> rdfs:label ?propertyLabel.
+			?restriction owl:someValuesFrom ?object
+			}
+	
+		}UNION{
+			GRAPH ?g{
+			?entity1 rdfs:subClassOf ?restriction .
+			?restriction owl:onProperty <http://purl.obolibrary.org/obo/RO_0000053>.
+			#<http://purl.obolibrary.org/obo/RO_0000053> rdfs:label ?propertyLabel.
+			?restriction owl:someValuesFrom ?object
+			}
+	
+		}UNION{
+			GRAPH ?g{
+			?entity1 rdfs:subClassOf ?restriction .
+			?restriction owl:onProperty <http://purl.obolibrary.org/obo/RO_0002002>.
+			#<http://purl.obolibrary.org/obo/RO_0002002> rdfs:label ?propertyLabel.
+			?restriction owl:someValuesFrom ?object
+			}
+	
+		}
+		UNION{
+			GRAPH ?g{
+			?entity1 rdfs:subClassOf ?restriction .
+			?restriction owl:onProperty <http://purl.obolibrary.org/obo/RO_0002350>.
+			#<http://purl.obolibrary.org/obo/RO_0002350> rdfs:label ?propertyLabel.
+			?restriction owl:someValuesFrom ?object
+			}
+	
+		}UNION{
+			GRAPH ?g{
+			?entity1 rdfs:subClassOf ?restriction .
+			?restriction owl:onProperty <http://purl.obolibrary.org/obo/RO_0000058>.
+			#<http://purl.obolibrary.org/obo/RO_0000058> rdfs:label ?propertyLabel.
+			?restriction owl:someValuesFrom ?object
+			}
+	
+		}UNION{
+			GRAPH ?g{
+			?entity1 rdfs:subClassOf ?restriction .
+			?restriction owl:onProperty <http://purl.obolibrary.org/obo/RO_0000059>.
+			#<http://purl.obolibrary.org/obo/RO_0000059> rdfs:label ?propertyLabel.
+			?restriction owl:someValuesFrom ?object
+			}
+	
+		}UNION{
+			GRAPH ?g{
+			?entity1 rdfs:subClassOf ?restriction .
+			?restriction owl:onProperty <http://purl.obolibrary.org/obo/RO_0000079>.
+			#<http://purl.obolibrary.org/obo/RO_0000079> rdfs:label ?propertyLabel.
+			?restriction owl:someValuesFrom ?object
+			}
+	
+		}UNION{
+			GRAPH ?g{
+			?entity1 rdfs:subClassOf ?restriction .
+			?restriction owl:onProperty <http://purl.obolibrary.org/obo/RO_0000080>.
+			#<http://purl.obolibrary.org/obo/RO_0000080> rdfs:label ?propertyLabel.
+			?restriction owl:someValuesFrom ?object
+			}
+	
+		}UNION{
+			GRAPH ?g{
+			?entity1 rdfs:subClassOf ?restriction .
+			?restriction owl:onProperty <http://purl.obolibrary.org/obo/RO_0000081>.
+			#<http://purl.obolibrary.org/obo/RO_0000081> rdfs:label ?propertyLabel.
+			?restriction owl:someValuesFrom ?object
+			}
+	
+		}UNION{
+			GRAPH ?g{
+			?entity1 rdfs:subClassOf ?restriction .
+			?restriction owl:onProperty <http://purl.obolibrary.org/obo/RO_0002000>.
+			#<http://purl.obolibrary.org/obo/RO_0002000> rdfs:label ?propertyLabel.
+			?restriction owl:someValuesFrom ?object
+			}
+	
+		}UNION{
+			GRAPH ?g{
+			?entity1 rdfs:subClassOf ?restriction .
+			?restriction owl:onProperty <http://purl.obolibrary.org/obo/RO_0000092>.
+			#<http://purl.obolibrary.org/obo/RO_0000092> rdfs:label ?propertyLabel.
+			?restriction owl:someValuesFrom ?object
+			}
+	
+		}
+
+}

@@ -1,0 +1,10 @@
+<http://purl.obolibrary.org/obo/NCIT_C92490>
+<http://purl.obolibrary.org/obo/NCIT_C118396>
+<http://purl.obolibrary.org/obo/NCIT_C17359>
+<http://purl.obolibrary.org/obo/NCIT_C17387>
+<http://purl.obolibrary.org/obo/NCIT_C52271>
+<http://purl.obolibrary.org/obo/NCIT_C17359>
+<http://purl.obolibrary.org/obo/NCIT_C17387>
+<http://purl.obolibrary.org/obo/NCIT_C52271>
+<http://purl.obolibrary.org/obo/REX_0000221>
+<http://purl.obolibrary.org/obo/INO_0000024>

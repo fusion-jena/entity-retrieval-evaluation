@@ -1,0 +1,10 @@
+<http://purl.obolibrary.org/obo/GO_0010467>
+<http://purl.obolibrary.org/obo/INO_0000102>
+<http://purl.obolibrary.org/obo/NCIT_C16608>
+<http://purl.obolibrary.org/obo/NCIT_C21049>
+<http://purl.obolibrary.org/obo/GO_0009293>
+<http://purl.obolibrary.org/obo/NCIT_C142787>
+<http://purl.obolibrary.org/obo/INO_0000157>
+<http://purl.obolibrary.org/obo/NCIT_C48805>
+<http://purl.obolibrary.org/obo/CHEBI_29320>
+<http://purl.obolibrary.org/obo/NCBITaxon_7227>

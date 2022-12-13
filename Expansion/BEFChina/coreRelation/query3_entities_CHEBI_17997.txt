@@ -1,0 +1,3 @@
+object
+http://purl.obolibrary.org/obo/CHEBI_77974
+http://purl.obolibrary.org/obo/CHEBI_78017

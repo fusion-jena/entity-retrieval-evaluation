@@ -1,0 +1,18 @@
+# How does tree (ANATOMY:http://purl.obolibrary.org/obo/PO_0000003) height (http://purl.obolibrary.org/obo/PATO_0000119) have been measured in BEF China experiments? (SP1e, SP2e)
+
+# same as in Q9 - integrate tree concepts
+# (meist verholzte) Samenpflanzen: NCBITaxon_58024
+
+
+
+----------------------------------------------------------------------------------
+
+###########################################################
+### simple URI query ###############
+###########################################################
+# 0 documents
+{Organism inst="http://purl.obolibrary.org/obo/NCBITaxon_58024"}
+AND
+{Quality inst="http://purl.obolibrary.org/obo/PATO_0000119"}
+
+#########################################

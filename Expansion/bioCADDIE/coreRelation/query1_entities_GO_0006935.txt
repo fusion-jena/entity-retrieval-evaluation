@@ -1,0 +1,2 @@
+object
+http://purl.obolibrary.org/obo/GO_0042221

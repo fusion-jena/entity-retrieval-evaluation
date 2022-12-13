@@ -1,0 +1,19 @@
+# Search for data of all types related to MIP-2 gene [GeneProtein - http://purl.obolibrary.org/obo/PR_000006069] related to biliary atresia [Disease - http://purl.obolibrary.org/obo/DOID_13608] across all databases.
+# some relevant datasets do not contain the MIP-2 gene, e.g., 249465.xml
+
+
+###########################################################
+### simple URI query ###############
+###########################################################
+#
+({GeneProtein inst="http://purl.obolibrary.org/obo/NCIT_C49764"} 
+OR {GeneProtein inst="http://purl.obolibrary.org/obo/NCIT_C143017"} 
+OR {GeneProtein inst="http://purl.obolibrary.org/obo/NCIT_C20474"}
+OR {GeneProtein inst="http://purl.obolibrary.org/obo/NCIT_C20475"}
+OR {GeneProtein inst="http://purl.obolibrary.org/obo/NCIT_C112052"}
+)
+AND
+({Disease inst = "http://purl.obolibrary.org/obo/DOID_13608"} 
+OR {Disease inst="http://purl.obolibrary.org/obo/NCIT_C34421"})
+
+###########################################################

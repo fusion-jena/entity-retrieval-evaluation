@@ -1,0 +1,20 @@
+# Find 3 plant species where root length (PATO_0000122) have been measured
+
+----------------------------------------------------------------------------------
+
+###########################################################
+### simple URI query ###############
+###########################################################
+# 0 documents
+{Organism inst = "http://purl.obolibrary.org/obo/NCBITaxon_3193"}
+AND
+({Quality inst = "http://purl.obolibrary.org/obo/PATO_0000122"}
+OR
+{Quality inst = "http://purl.obolibrary.org/obo/FLOPO_0009325"}
+OR
+{Quality inst = "http://purl.obolibrary.org/obo/TO_0000227"}
+)
+
+
+####################################
+

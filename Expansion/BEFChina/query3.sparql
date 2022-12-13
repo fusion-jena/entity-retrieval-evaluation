@@ -1,0 +1,19 @@
+# Find 3 datasets from beeches (NCBI_TAXON_3503) or oaks (NCBI_TAXON_38942) where nitrogen(CHEBI_17997) content have been measured 
+
+
+----------------------------------------------------------------------------------
+
+###########################################################
+### simple URI query ###############
+###########################################################
+# 
+({Organism inst="http://purl.obolibrary.org/obo/NCBITaxon_3503"}
+OR
+{Organism inst = "http://purl.obolibrary.org/obo/NCBITaxon_38942"})
+AND
+({Material inst = "http://purl.obolibrary.org/obo/CHEBI_17997"} 
+OR 
+{Quality inst ="http://purl.obolibrary.org/obo/TO_0020093"})
+
+
+##################################################

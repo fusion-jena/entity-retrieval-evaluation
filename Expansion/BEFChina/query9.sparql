@@ -1,0 +1,22 @@
+#Does tree (ANATOMY:http://purl.obolibrary.org/obo/PO_0000003) diversity reduce competition (PROCESS: http://purl.obolibrary.org/obo/INO_0000050)?
+#INO - Interaction Network Ontology - not yet integrated!
+# ANATOMY not yet integrated
+# for anatomy do not integrate subClasses, e.g., when looking for the whole plant (tree), you don't want to get results about pollen
+
+# instead of 'Organism' integrate alle tree concepts (only manual selection possible)
+# (meist verholzte) Samenpflanzen: NCBITaxon_58024
+----------------------------------------------------------------------------------------
+
+
+###########################################################
+### simple URI query ###############
+###########################################################
+# 0 documents
+{Organism inst = "http://purl.obolibrary.org/obo/NCBITaxon_58024"}
+AND
+diversity
+AND
+{Process inst = "http://purl.obolibrary.org/obo/INO_0000050"}
+
+
+######################################

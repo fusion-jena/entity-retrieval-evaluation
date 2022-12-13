@@ -1,0 +1,20 @@
+# Search for data on nerve cells [Anatomy - http://purl.obolibrary.org/obo/CL_0000540] in the substantia nigra [Anatomy - http://purl.obolibrary.org/obo/UBERON_0002038] in mice [Organism - http://purl.obolibrary.org/obo/NCBITaxon_10090] across all databases.
+
+###########################################################
+### simple URI query ###############
+###########################################################
+# 
+({Anatomy inst="http://purl.obolibrary.org/obo/CL_0000540"} 
+OR {Anatomy inst="http://purl.obolibrary.org/obo/NCIT_C12623"} 
+OR {Anatomy inst="http://purl.obolibrary.org/obo/BTO_0000925"}
+OR {Anatomy inst="http://purl.obolibrary.org/obo/NCIT_C12466"}
+OR {Anatomy inst="http://purl.obolibrary.org/obo/UBERON_0001021"})
+AND
+({Anatomy inst="http://purl.obolibrary.org/obo/BTO_0000143"} OR
+{Anatomy inst="http://purl.obolibrary.org/obo/NCIT_C12453"} OR
+{Anatomy inst="http://purl.obolibrary.org/obo/UBERON_0002038"})
+AND
+{Organism inst="http://purl.obolibrary.org/obo/NCBITaxon_10090"}
+
+
+######################################################
